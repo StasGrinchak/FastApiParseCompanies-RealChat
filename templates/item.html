@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nnvnbvnbvnbv</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="link">
+            <div class="ftse">
+                <a href="http://127.0.0.1:8000/FTSE%20100">List of FTSE 100 companies</a>
+            </div>
+            <div class="sp">
+                <a href="http://127.0.0.1:8000/S%26amp%3BP%20500">List of S&P 500 companies</a>
+            </div>
+        </div>
+        <div class="content">
+            {% for item in result%}
+            <div class="item">
+                <p>{{item}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</body>
+</html>

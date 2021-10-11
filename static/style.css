@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    color: darkblue;
+    border: 1px chocolate solid;
+    min-width: 250px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    background: bisque;
+}
+
+.item:hover{
+    background: chocolate;
+    transition: 1.5s;
+}
+
+.content {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteiner {
+    background: #eaeaea;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link a {
+    text-decoration: none;
+    color: midnightblue;
+    text-align: center;
+}
+
+.link div {
+    border: 3px chocolate solid;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    background: bisque;
+}
+
+.link div:hover{
+    background: chocolate;
+    transition: 1.5s;
+}
